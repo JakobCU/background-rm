@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Bash(pip install:*)"
+      "Bash(pip install:*)",
+      "Bash(source .venv/Scripts/activate)",
+      "Bash(pyinstaller --onefile --windowed --name \"BackgroundRemover\" app.py)"
     ]
   }
 }
